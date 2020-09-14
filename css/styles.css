@@ -1,0 +1,161 @@
+body {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+a, h1, nav {
+  color: white;
+}
+
+h1 {
+  font-weight: 500;
+  size: 3rem;
+  line-height: 1.5;
+}
+
+nav {
+  font-weight:bold;
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.download-btn {
+  margin: 15% 5% 5% 0;
+}
+
+/* Navigation Bar */
+
+    .navbar {
+      padding-left: 0;
+      padding-bottom: 3.5rem;
+      font-weight: normal;
+    }
+
+    .navbar-brand {
+      font-weight: lighter;
+      font-size: 3rem;
+      color: white;
+    }
+
+    .nav-item {
+      font-size: 1.2rem;
+      padding: 10px;
+    }
+
+/* end */
+
+.title-div {
+  text-align: left;
+}
+
+.main-image {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+}
+
+.phone-picture {
+  border-radius: 50%;
+}
+
+.small-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.sectionOdd {
+  background-color: #a8df65;
+}
+
+.sectionEven {
+  background-color: #edf492;
+}
+
+.features-column {
+  padding: 5%;
+  margin: 20px 0 20px 0;
+}
+
+.testimonial-image {
+  display: block;
+  width: 20%;
+  border-radius:100%;
+  margin: auto;
+}
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+em {
+  margin: auto;
+}
+
+.plans {
+  margin: 20px auto 30px auto;
+}
+
+.card {
+  background-color: #a8df65;
+}
+
+.card-deck {
+  text-align: center;
+}
+
+.bottom-button {
+  margin: 5% 5% 10% 5%;
+}
+
+/* Media queries */
+
+    @media (max-width: 900px) {
+      h1 {
+        text-align: center;
+      }
+      .title-div {
+        text-align: center;
+      }
+      .row {
+        text-align: center;
+      }
+      .download-btn {
+        margin: 15% 5% 5% 05%;
+      }
+    }
+
+    @media (max-width: 899px) {
+      .card-deck{
+        display: block;
+        text-align: center;
+        margin: 3%;
+      }
+      .card {
+        width: 60%;
+        margin: 3%;
+      }
+    }
+
+
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#press {
+  background-color: #a8df65;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 0 20px 0 20px;
+}

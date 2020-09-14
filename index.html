@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doglet</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Google fonts -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- Icons -->
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wT///8+Fw8G/xcPBv9rVkD/////FP///xL///8aa1ZA/xcPBv8XDwb/////GwAAAAAAAAAAAAAAAAAAAAD///8kFw8G/xcPBv8XDwb/Fw8G/xcPBv8XDwb/Fw8G/xcPBv8XDwb/Fw8G/2tWQP////8GAAAAAAAAAAAAAAAA////ERcPBv8XDwb/Fw8G/xcPBv8XDwb/Fw8G/xcPBv8XDwb/Fw8G/xcPBv9rVkD/////CQAAAAAAAAAAAAAAAAAAAABrVkD/Fw8G/xcPBv8XDwb/Fw8G/xcPBv8XDwb/Fw8G/xcPBv8XDwb/////OwAAAAAAAAAAAAAAAP///wH///8G////KRcPBv8XDwb/Fw8G/xcPBv8XDwb/Fw8G/xcPBv8XDwb/a1ZA/wAAAAAAAAAAAAAAAP///wr///9S////cf///zxrVkD/Fw8G/xcPBv8XDwb/Fw8G/xcPBv8XDwb/a1ZA/////yj///9B////EAAAAAD///83Fw8G/xcPBv8XDwb/////EmtWQP8XDwb/Fw8G/xcPBv8XDwb/a1ZA/////yRNOCL/Fw8G/xcPBv////8VFw8G/xcPBv8XDwb/Fw8G/////z7///8B////Qk04Iv9NOCL/a1ZA/////x3///9GFw8G/xcPBv8XDwb/Fw8G/xcPBv8XDwb/Fw8G/xcPBv////8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////JRcPBv8XDwb/Fw8G/xcPBv8XDwb/Fw8G/xcPBv9rVkD/////GP///0P///8TAAAAAP///wb///9C////Of///wQXDwb/Fw8G/xcPBv8XDwb/////P2tWQP9rVkD/////HGtWQP8XDwb/Fw8G/////wz///8mTTgi/004Iv9NOCL/////GhcPBv8XDwb/////YwAAAAD///8M////DE04Iv8XDwb/Fw8G/xcPBv////9E////UBcPBv8XDwb/Fw8G/2tWQP////8G////F////xYAAAAAAAAAAP///wNNOCL/Fw8G/xcPBv8XDwb/////Tf///2MXDwb/Fw8G/xcPBv9NOCL/AAAAAAAAAAAAAAAAAAAAAAAAAAD///8DTTgi/xcPBv8XDwb/a1ZA/////y3///9LFw8G/xcPBv8XDwb/TTgi/////wEAAAAAAAAAAAAAAAAAAAAAAAAAAGtWQP8XDwb/Fw8G/2tWQP////8a////ExcPBv8XDwb/Fw8G/2tWQP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa1ZA/2tWQP////8m////BwAAAAD///8pTTgi/2tWQP////8IAAAAAAAAAAAAAAAA8ccAAOADAADgAwAA4AcAAPAHAADwDwAAiBEAAA4wAAAP8AAAD/AAAJGJAADhhwAA4YcAAOGHAADhhwAA888AAA=="
+    rel="icon" type="image/x-icon" />
+  <script src="https://use.fontawesome.com/9b55c37766.js"></script>
+</head>
+
+<body>
+
+  <section class="sectionOdd container-fluid" id="title">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="navbar-brand" href=""><i class="icon fas fa-paw"></i> Doglet</div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">Download</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="row">
+      <div class="title-div col-lg-6">
+        <h1>Find dogsitters and dogs in your neighbourhood</h1>
+        <button type="button" class="download-btn btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="download-btn btn btn-outline-dark btn-lg"><i class="fab fa-google-play"></i> Download</button>
+      </div>
+
+      <div class="col-lg-6 phone-picture">
+        <img class="main-image" height="400vw" src="images/doggy.png" alt="iphone-mockup">
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="sectionEven container-fluid" id="features">
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 features-column">
+        <i class="small-icon fas fa-paw"></i>
+        <h3>Find dogs</h3>
+        <p>Search for dogs, and dogsitters near you</p>
+      </div>
+
+      <div class="col-lg-4 col-md-12 features-column">
+        <i class="small-icon fas fa-search"></i>
+        <h3>Search function</h3>
+        <p>Search by dog breed and size. Find compatible dogsitters</p>
+      </div>
+
+      <div class="col-lg-4 col-md-12 features-column">
+        <i class="small-icon fas fa-home"></i>
+        <h3>Dogs in need</h3>
+        <p>Find foster dogs in need of a temporary home</p>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="sectionOdd container-fluid" id="testimonials">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="false">
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testimonial">I'm a good dog. So goooood!!!</h2>
+          <img src="images/dog-img.jpg" class="testimonial-image" alt="...">
+          <div class="carousel-caption">
+            <h5>Goldie</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial">I love doglets. Doglets are the best.</h2>
+          <img src="images/lady-img.jpg" class="testimonial-image" alt="...">
+          <div class="carousel-caption">
+            <h5>Jamie</h5>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    <!--
+    <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="sectionOdd container-fluid" id="press">
+    <img src="images/techcrunch.png" alt="tc-logo">
+    <img src="images/tnw.png" alt="tnw-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo">
+    <img src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="sectionEven container-fluid" id="pricing">
+
+    <h2 class="plans">A Plan for Every Dog's Needs</h2>
+    <p class="plans">Simple and affordable price plans for your and your dog.</p>
+
+    <div class="card-deck mb-3">
+
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Doglet</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>10 users included</li>
+          <li>2 GB of storage</li>
+          <li>Email support</li>
+          <li>Help center access</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign up</button>
+      </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Retriever</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>20 users included</li>
+          <li>10 GB of storage</li>
+          <li>Priority email support</li>
+          <li>Help center access</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-dark">Get started</button>
+      </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Big Dog</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>30 users included</li>
+          <li>15 GB of storage</li>
+          <li>Phone and email support</li>
+          <li>Help center access</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-dark">Contact us</button>
+      </div>
+    </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+    <!-- Call to Action -->
+
+
+  <div id="cta">
+    <button class="bottom-button btn btn-dark btn-lg" type="button"><i class="fab fa-apple"></i> Download</button>
+    <button class="bottom-button btn btn-dark btn-lg" type="button"><i class="fab fa-google-play"></i> Download</button>
+  </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright 2020 Doglet</p>
+
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
